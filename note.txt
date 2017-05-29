@@ -1,0 +1,46 @@
+
+$ mkdir learngit
+
+lenovo@WH MINGW64 ~/Desktop/lk/git_test
+$ cd learngit
+
+lenovo@WH MINGW64 ~/Desktop/lk/git_test/learngit
+$ pwd
+/c/Users/lenovo/Desktop/lk/git_test/learngit
+
+lenovo@WH MINGW64 ~/Desktop/lk/git_test/learngit
+$ git init
+
+
+$ git config --global user.name "wh19951224"
+
+lenovo@WH MINGW64 ~/Desktop/lk/git_test/learngit (master)
+$ git config --global user.email "1446001654@qq.com"
+
+$ ssh-keygen -t rsa -C "1446001654@qq.com"
+
+
+lenovo@WH MINGW64 ~/Desktop/lk/git_test/learngit (master)
+$ git add .
+
+lenovo@WH MINGW64 ~/Desktop/lk/git_test/learngit (master)
+$ git commit -m "sdf"
+[master 0b8ae77] sdf
+ 1 file changed, 1 insertion(+)
+
+lenovo@WH MINGW64 ~/Desktop/lk/git_test/learngit (master)
+$ git remote add origin git@github.com:wh19951224/AC.git
+fatal: remote origin already exists.
+
+AC°¢learn --> your profile
+
+lenovo@WH MINGW64 ~/Desktop/lk/git_test/learngit (master)
+$ git remote add origin git@github.com:wh19951224/learn.git
+fatal: remote origin already exists.
+
+$ git push -u origin master  //∆’Õ®
+$ git push -f origin master  //«ø÷∆
+
+
+
+
